@@ -1,0 +1,173 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+   
+}
+p{
+    color: darkred;
+    font-family: Ubuntu;
+}
+/* containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+.big-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+/* sections */
+.colored-section{
+    background-color: #ff4c68;
+    color: beige;
+}
+.white-section{
+    background-color: #fff;
+}
+/* title */
+
+#title .container-fluid{
+    text-align: left; 
+    padding: 3% 7% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-weight: bold;
+    font-size: 2rem ;
+    color: beige;
+}
+.navbar{
+    padding-bottom: 4rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: light;
+}
+/* Buttons */
+.download-button{
+    margin: 5% 3% 3% 0;
+}
+
+/* Titel Image */
+
+
+.title-image{
+    width: 20%;
+    rotate: 25deg;
+    position: absolute;
+    margin-left: 30px;
+   
+}
+
+
+/* Features */
+
+#features{
+   
+    position: relative;
+}
+
+.features-title{
+    font-weight: bold;
+    text-align:center;
+    font-size: 1.5rem;
+}
+.features-box{
+    padding: 4.5%;
+
+}
+.row{
+    margin:100 auto auto 100;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1.5rem;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-text{
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonials-dog{
+    width: 15%;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+/* Press section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 30px;
+}
+
+/* Pricing */
+#pricing{
+    padding: 100px;
+}
+.dog-type{
+    font-weight: bold;
+    text-align:center;
+    font-size: 1.5rem;
+}
+.price-text{
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.card-header{
+    background-color: #ef8172;
+}
+.card{
+    margin:5% 2%;
+    
+}
+@media (max-width:1028px){
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        padding-top: 10%;
+        width: 50%;
+        position: static;
+        rotate: 0deg;
+    }
+}
+/* Call to Action */
+
+/* footer */
+#footer{
+    padding: 50px;
+    text-align: center;
+}
+.social-media{
+    padding-bottom: 20px;
+}
+span{
+    padding: 10px;
+}
